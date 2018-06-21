@@ -4,21 +4,21 @@ const Header =() => {
         return (
             <div className="header">
                 <div className="gallery d-flex flex-nowrap">
-                    <img className="responsive" src="/assets/i/photo1.png" alt="burger"/>
-                        <img className="responsive" src="/assets/i/photo2.png" alt="burger"/>
-                            <img className="responsive" src="/assets/i/photo3.png" alt="burger"/>
-                                <img className="responsive" src="/assets/i/photo4.png" alt="burger"/>
-                                    <img className="responsive" src="/assets/i/photo1.png" alt="burger"/>
-                                        <img className="responsive" src="/assets/i/photo2.png" alt="burger"/>
+                    <img className="responsive" src="i/photo1.jpg" alt="burger"/>
+                        <img className="responsive" src="/assets/i/photo2.jpg" alt="burger"/>
+                            <img className="responsive" src="/assets/i/photo3.jpg" alt="burger"/>
+                                <img className="responsive" src="/assets/i/photo4.jpg" alt="burger"/>
+                                    <img className="responsive" src="/assets/i/photo1.jpg" alt="burger"/>
+                                        <img className="responsive" src="/assets/i/photo2.jpg" alt="burger"/>
 
                 </div>
                 <div className="gallery d-flex flex-nowrap">
-                    <img className="responsive" src="/assets/i/photo5.png" alt="burger"/>
-                        <img className="responsive" src="/assets/i/photo6.png" alt="burger"/>
-                            <img className="responsive" src="/assets/i/photo7.png" alt="burger"/>
-                                <img className="responsive" src="/assets/i/photo8.png" alt="burger"/>
-                                    <img className="responsive" src="/assets/i/photo5.png" alt="burger"/>
-                                        <img className="responsive" src="/assets/i/photo6.png" alt="burger"/>
+                    <img className="responsive" src="/assets/i/photo5.jpg" alt="burger"/>
+                        <img className="responsive" src="/assets/i/photo6.jpg" alt="burger"/>
+                            <img className="responsive" src="/assets/i/photo7.jpg" alt="burger"/>
+                                <img className="responsive" src="/assets/i/photo8.jpg" alt="burger"/>
+                                    <img className="responsive" src="/assets/i/photo5.jpg" alt="burger"/>
+                                        <img className="responsive" src="/assets/i/photo6.jpg" alt="burger"/>
 
                 </div>
                 <ul className="nav justify-content-center myNav">
