@@ -1,24 +1,32 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom'
+import photo1 from '../img/photo1.jpg'
+import photo2 from '../img/photo2.jpg'
+import photo3 from '../img/photo3.jpg'
+import photo4 from '../img/photo4.jpg'
+import photo5 from '../img/photo5.jpg'
+import photo6 from '../img/photo6.jpg'
+import photo7 from '../img/photo7.jpg'
+import photo8 from '../img/photo8.jpg'
 const Header =() => {
         return (
             <div className="header">
                 <div className="gallery d-flex flex-nowrap">
-                    <img className="responsive" src="i/photo1.jpg" alt="burger"/>
-                        <img className="responsive" src="/assets/i/photo2.jpg" alt="burger"/>
-                            <img className="responsive" src="/assets/i/photo3.jpg" alt="burger"/>
-                                <img className="responsive" src="/assets/i/photo4.jpg" alt="burger"/>
-                                    <img className="responsive" src="/assets/i/photo1.jpg" alt="burger"/>
-                                        <img className="responsive" src="/assets/i/photo2.jpg" alt="burger"/>
+                    <img className="responsive" src={photo1} alt="burger"/>
+                        <img className="responsive" src={photo2} alt="burger"/>
+                            <img className="responsive" src={photo3} alt="burger"/>
+                                <img className="responsive" src={photo4} alt="burger"/>
+                                    <img className="responsive" src={photo1} alt="burger"/>
+                                        <img className="responsive" src={photo2} alt="burger"/>
 
                 </div>
                 <div className="gallery d-flex flex-nowrap">
-                    <img className="responsive" src="/assets/i/photo5.jpg" alt="burger"/>
-                        <img className="responsive" src="/assets/i/photo6.jpg" alt="burger"/>
-                            <img className="responsive" src="/assets/i/photo7.jpg" alt="burger"/>
-                                <img className="responsive" src="/assets/i/photo8.jpg" alt="burger"/>
-                                    <img className="responsive" src="/assets/i/photo5.jpg" alt="burger"/>
-                                        <img className="responsive" src="/assets/i/photo6.jpg" alt="burger"/>
+                    <img className="responsive" src={photo5} alt="burger"/>
+                        <img className="responsive" src={photo6} alt="burger"/>
+                            <img className="responsive" src={photo7} alt="burger"/>
+                                <img className="responsive" src={photo8} alt="burger"/>
+                                    <img className="responsive" src={photo5} alt="burger"/>
+                                        <img className="responsive" src={photo6} alt="burger"/>
 
                 </div>
                 <ul className="nav justify-content-center myNav">
